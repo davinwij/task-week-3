@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(235, 235, 235);
+}
+
+nav {
+  display: flex;
+  background-color: #f4f3f3;
+  height: 8vh;
+  margin: 0;
+}
+
+nav div {
+  display: flex;
+  flex: 50%;
+  align-items: center;
+}
+
+nav #contact-me {
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+nav div ol {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+div a.home {
+  font-weight: 800;
+}
+
+nav div.left-side {
+  padding-left: 90px;
+}
+
+nav div.right-side {
+  padding-right: 90px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ol li {
+  display: inline;
+  margin-left: 40px;
+}
+
+nav div.right-side a {
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+/* cont-1 */
+
+.cont-1 {
+  width: 1000px;
+  height: 500px;
+  margin: 100px auto;
+  background-color: white;
+  box-shadow: 3px 7px 15px rgb(131, 131, 131);
+  box-sizing: border-box;
+  display: flex;
+}
+
+.cont-1 .content-1 {
+  flex: 6;
+}
+
+.cont-1 .card {
+  flex: 4;
+  margin: 75px auto;
+  text-align: center;
+  line-height: 0%;
+}
+
+.cont-1 .card-content h4 {
+  margin-bottom: 10px;
+}
+
+.cont-1 .content-1 {
+  padding-top: 45px;
+  padding-left: 35px;
+  padding-right: 75px;
+  text-align: justify;
+}
+
+.card-content img {
+  width: 200px;
+}
+
+.btn-detail {
+  border-radius: 18px;
+  padding: 6px 30px;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: white;
+  margin-top: 25px;
+  transition: 0.5s;
+  opacity: 100%;
+}
+
+.btn-detail:hover {
+  opacity: 70%;
+}
+
+.line-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.line-2-2 {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.line-2-2 img {
+  width: 15px;
+}
+
+.icon-profile {
+  margin-top: 50px;
+}
+
+.card-content {
+  margin: 0 auto;
+  width: 200px;
+  height: 372px;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 1px 1px 4px rgb(119, 119, 119);
+}
+
+.fa {
+  padding: 8px;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: black;
+  color: white;
+}
+
+.fa-twitter {
+  background: black;
+  color: white;
+}
+
+.fa-instagram {
+  background: black;
+  color: white;
+}
+
+.fa-linkedin {
+  background: black;
+  color: white;
+}
+
+/* section 2 - my project */
+.cont-2 h4 {
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.project-list {
+  width: 1030px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-list-item {
+  margin: 20px;
+  width: 300px;
+  height: 450px;
+  box-shadow: 0px 5px 20px rgb(216, 216, 216);
+  border: 0.2px solid rgb(216, 216, 216);
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.cont-2 .project-list .project-list-item a {
+  text-decoration: none;
+}
+
+.project-list-item .card-img {
+  width: 280px;
+  height: 200px;
+  margin: 10px auto;
+}
+
+.project-list-item .card-img img {
+  width: 280px;
+  border-radius: 8px;
+}
+
+.project-list-item .card-title {
+  padding-left: 10px;
+  margin-top: -8px;
+  font-size: 14px;
+}
+
+.project-list-item .card-drt {
+  color: #585858a6;
+  padding-left: 10px;
+  margin-top: -10px;
+}
+
+.card-desc p {
+  margin-top: -10px;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+  height: 50px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 11px;
+  white-space: nowrap;
+}
+
+.project-list-item .card-icon img {
+  width: 30px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.project-list-item .card-btn {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  margin-top: 10px;
+}
+
+.project-list-item .card-btn button {
+  width: 140px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(0, 0, 20);
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 15px;
+  margin: 2px;
+}
+
+.project-list-item a {
+  text-decoration: none;
+}

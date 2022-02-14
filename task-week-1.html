@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Biograph</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Open+Sans:wght@300;800&display=swap');
+
+            body{
+                background-color: #e6e6e6;
+                padding-bottom: 100px;
+            }
+
+            .btn-detail{
+                background-color: rgb(61, 61, 61);
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 800;
+                margin-top: 12px;
+                color: white;
+                padding: 7px 30px;
+                border-radius: 90px;
+                border: 0px;
+                cursor: pointer;                            
+                transition: 0.5s;   
+                box-shadow: 0 5px rgb(168, 168, 168);
+            }       
+
+            .btn-detail:hover{
+                background-color: rgb(211, 211, 211);
+                color: black;                
+            }
+            
+            .btn-detail:active{
+                transition: 0.1s;
+                background-color: rgb(211, 211, 211);
+                box-shadow: 0 1px rgb(61, 61, 61);
+                transform: translateY(4px);
+            }
+
+            .lo{
+                width: 30px;
+                padding: 10px;
+                margin-top: 15px;
+                margin-right: 20px;
+            }
+            
+            .download{
+                font-family: 'Open Sans', sans-serif; 
+                font-weight: 300;
+                float: left;
+                font-size: 15px;
+                margin-top: 10px;
+                text-decoration: none;
+                color: black;
+            }
+
+            .line-4 img{
+                width: 15px;
+                margin-top: 10px;
+                margin-right: 270px;
+            }
+
+            .card-profile{
+                width: 220px;
+                height: 300px;
+                border: 0;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                border-radius: 15px;
+                box-sizing: border-box;
+                overflow: hidden;
+                box-shadow: 0px 0px 8px #999 ;
+            }
+
+            .card-profile img{
+                width: 140%;
+                align-content: center;
+                margin-right: 60px;
+            }
+
+            .container{
+                margin-bottom: 20px;
+            }
+
+            .container p{
+                line-height: 0.005;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <center>
+            <section style="
+                width: 30%;
+                margin-top: 60px;
+                background-color: white;
+                padding: 10px 150px;
+                box-shadow: 5px 8px 10px rgb(168, 168, 168);
+            ">
+
+                <div class="intro">
+                    <div class="heading">
+                        <h4 style="
+                            font-family: 'Open Sans', sans-serif;
+                            text-align: left;
+                            ">
+                            Hi, Welcome to my hut                                
+                        </h4>
+                        <p style="text-align: justify;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempus ultrices sapien, vitae sodales dui iaculis non. Donec bibendum auctor diam at eleifend. Duis vel tincidunt neque. Nullam vitae tincidunt felis. In hac habitasse platea dictumst. Etiam auctor laoreet nunc, at dignissim nisi dapibus a. Aenean aliquam accumsan volutpat. Fusce ex purus, tristique ac egestas at, vulputate sagittis sem. Nullam pharetra dictum dui, sed aliquet ante venenatis ultricies. Donec viverra, sem nec tincidunt facilisis, odio elit imperdiet felis, vitae tincidunt purus felis ut mi. Ut volutpat malesuada risus non vehicula. 
+                        </p>
+                    </div>
+                    <div class="button" style="text-align: left;">
+                        <a href="https://wa.me/0857141248996" target="blank">
+                            <button class="btn-detail">Contact</button>
+                        </a>
+                    </div>
+
+                    <div class="line-4">
+                        <a class="download" href="">download CV</a>
+                        <a href=""><img src="assets/download-logo.png" alt=""></a>                        
+                    </div>
+                </div>
+
+                <div>
+                    <a href="#">
+                        <img  class="lo ig" src="assets/instagram.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img  class=" lo fb" src="assets/facebook.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img  class=" lo twt" src="assets/twitter.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img  class=" lo git" src="assets/git.png" alt="">
+                    </a>
+                </div>
+
+                <div class="card-profile">
+                    
+                    <img src="assets/my-img.jpg" alt="">
+
+                    <div class="container">
+                        <h3>Rhoma Irama</h3>
+                        <p>Fullstack Developer</p>
+                    </div>
+                </div>
+
+            </section>
+        </center>
+
+       
+    </body>
+</html>

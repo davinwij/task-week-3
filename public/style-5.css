@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  background-color: #f4f3f3;
+  height: 8vh;
+  margin: 0;
+}
+
+nav div {
+  display: flex;
+  flex: 50%;
+  align-items: center;
+}
+
+nav div ol {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ol li {
+  display: inline;
+  margin-left: 40px;
+}
+
+nav #contact-me {
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Form */
+.container-1 {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  height: 900px;
+  background-color: rgb(235, 235, 235);
+}
+
+.container-1 .form-container {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.container-1 .form-container h4 {
+  font-weight: 900;
+}
+
+.container-1 .form-container .project-input input {
+  height: 38px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 2px;
+  box-shadow: 3px 3px 5px rgb(216, 216, 216);
+  border: 1px solid rgb(204, 204, 204);
+}
+
+.container-1 .form-container .date-input input {
+  height: 38px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 2px;
+  box-shadow: 3px 3px 5px rgb(216, 216, 216);
+}
+
+.container-1 .form-container h4 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.container-1 .form-container label {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.container-1 .form-container .project-input input {
+  width: 97%;
+}
+
+.container-1 .form-container .date-input {
+  display: flex;
+  margin-top: 15px;
+}
+
+.container-1 .form-container .date-input div {
+  flex: 50%;
+}
+
+.container-1 .form-container .date-input input {
+  width: 96%;
+  height: 40px;
+  border: 1px solid rgb(204, 204, 204);
+}
+
+.container-1 .form-container .desc-input {
+  margin-top: 15px;
+}
+
+.container-1 .form-container .desc-input textarea {
+  resize: none;
+  width: 97%;
+  border: none;
+  border-radius: 5px;
+  margin-top: 2px;
+  box-shadow: 3px 3px 5px rgb(216, 216, 216);
+  border: 1px solid rgb(204, 204, 204);
+}
+
+.container-1 .form-container .tech-input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.container-1 .form-container .tech-input .left-checkbox {
+  width: 40%;
+  margin-top: 2px;
+  color: #4d4d4d;
+}
+
+.container-1 .form-container .tech-input .right-checkbox {
+  width: 40%;
+  margin-top: -55px;
+  margin-left: 200px;
+  color: #4d4d4d;
+}
+
+.upload-img {
+  margin-top: 15px;
+}
+
+.upload-img p {
+  display: flex;
+  font-size: 18px;
+  color: rgb(116, 116, 116);
+  background-color: rgb(231, 231, 231);
+  border-radius: 5px;
+  border: 1px solid rgb(204, 204, 204);
+  height: 40px;
+  width: 75px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-img .input-img {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(204, 204, 204);
+  width: 97%;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  background: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgb(216, 216, 216);
+}
+
+.upload-img label img {
+  width: 20px;
+}
+
+.btn-submit button {
+  padding: 7px 25px;
+  justify-content: flex-end;
+  border: none;
+  color: #ffffff;
+  background-color: rgb(0, 0, 20);
+  border-radius: 20px;
+  font-weight: 800;
+  margin-left: 75%;
+  margin-top: 30px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.btn-submit button:hover {
+  opacity: 75%;
+}
+
+/* section-2, project list */
